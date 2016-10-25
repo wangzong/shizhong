@@ -32,7 +32,6 @@ try:
 
     fonts = soup.find_all("font")
 
-    print(url)
 
     for font in fonts:
         # newfont = font.replace(u'\xa0',' ')
